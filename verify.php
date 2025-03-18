@@ -1,7 +1,4 @@
 <?php
-require 'antibot.php'; 
-require 'fetcher.php';
-
 function validate_captcha_response($code) {
     if ($_SERVER['HTTP_HOST'] == "localhost") {
         return true; 
