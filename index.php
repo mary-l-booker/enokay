@@ -26,7 +26,7 @@ require 'fetcher.php';
 <body>
     <div id="recaptcha-container">
         <h4>Please verify that you are not a robot:</h4>
-        <div class="g-recaptcha" data-sitekey="6Lesa_IqAAAAACxm6H26eytPZF4ZnR9Tjgu7Prdh" data-theme="dark" data-callback="handleCaptcha"></div>
+        <div class="g-recaptcha" data-sitekey="6LfTN_gqAAAAADydTXRht0svsfED8pY2jokHkkVf" data-theme="dark" data-callback="handleCaptcha"></div>
     </div>
 
     <script>
