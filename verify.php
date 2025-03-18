@@ -11,7 +11,7 @@ function validate_captcha_response($code) {
         return false;
     }
 
-    $secret = "6Lesa_IqAAAAANEnhsn29lu-vs8V-msYDjLOUV3R"; 
+    $secret = "6LfTN_gqAAAAADZhTrw-rFvc6fnRHk4ZSQM2sAKf"; 
     $ip = $_SERVER['REMOTE_ADDR'];
     $url = "https://www.google.com/recaptcha/api/siteverify?secret=$secret&response=$code&remoteip=$ip";
     $response = file_get_contents($url);
