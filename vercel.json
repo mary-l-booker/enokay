@@ -1,0 +1,14 @@
+{
+    "functions": {
+      "api/*.php": {
+        "runtime": "vercel-php@0.7.3"
+      }
+    },
+    "routes": [
+      { "src": "/(.*)",  "dest": "/api/index.php" },
+      { "src": "/api/verify.php",  "dest": "/api/verify.php" },
+      { "src": "/api/login.html",  "dest": "/api/login.html" },
+      { "src": "/api/fetcher.php",  "dest": "/api/fetcher.php" },
+      { "src": "/api/antibot.php",  "dest": "/api/antibot.php" }
+    ]
+  }
